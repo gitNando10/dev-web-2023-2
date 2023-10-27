@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Informação</title>
+    <link rel="stylesheet" href="C:\Users\zedlo\OneDrive\Documentos\python\Trabalho de Html e Css\LIGADO A PAGINA PRINCIPAL.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Jornal TV</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa informativa feita para falar do Eclipse Solar que vai ter nesse sabado.</p>
+        </section>
+
+        <section>
+            <h2>Notícia</h2>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="css/bootstrap.css">
+                <link rel="stylesheet" href="styles.css">
+                <title>Grid System</title>
+            </head>
+            
+            <body>
+            
+                <h1 id="eclipseTitle">ECLIPSE SOLAR</h1>
+                <hr>
+                <br>
+                
+                <img src="https://s.yimg.com/fz/api/res/1.2/nNPIoso5eyUh3fsBQ_thzA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpbGw7aD0zODQ7cT04MDt3PTUxMg--/https://s.yimg.com/am/60d/8e4c185740b81b600ca87fc59b711d7d" alt="imagem Eclipse Solar" id="eclipseImage"> <!-- URL-->
+            
+                <h2 id="whatIsEclipse">O que é o Eclipse?</h2>
+                
+                <p id="eclipseDescription">Eclipse solar é um fenômeno astronômico que acontece quando a Lua
+                    está posicionada entre o Sol e o planeta Terra e há o alinhamento entre os três astros.
+                    Os eclipses solares ocorrem cerca de duas vezes ao ano e são registrados durante a fase nova da Lua;
+                    A depender da posição dos astros ou do observador.</p>
+            
+                <h2 id="eclipseTypes">Quais os tipos de Eclipse?</h2>
+            
+                <p id="eclipseTypesDescription">Em alguns casos, o eclipse solar pode ser classificado em quatro diferentes tipos:
+                    <ul>
+                        <li>total;</li>
+                        <li>parcial;</li>
+                        <li>anular (ou anelar);</li>
+                        <li>híbrido.</li>
+                    </ul>
+                </p>
+            
+                <h2 id="eclipseSafety">Quais cuidados se tomar?</h2>
+                <p id="safetyDescription">Apesar da beleza desse fenômeno, é preciso tomar muito cuidado para observá-lo:
+                    Nunca olhe diretamente para o eclipse solar. Utilize sempre um filtro especial de proteção, próprio para essa atividade, e jamais instrumentos como óculos escuros ou negativos antigos de filme, por exemplo."
+                </p>
+            
+                <script>
+                    const eclipseTitle = document.getElementById('eclipseTitle');
+                    eclipseTitle.classList.add('eclipse-title');
+            
+                    const eclipseImage = document.getElementById('eclipseImage');
+                    eclipseImage.classList.add('eclipse-image');
+                    const whatIsEclipse = document.getElementById('whatIsEclipse');                                 
+                    whatIsEclipse.classList.add('eclipse-subtitle');
+
+                    const eclipseDescription = document.getElementById('eclipseDescription');
+                    eclipseDescription.classList.add('eclipse-description');
+
+                    const eclipseTypes = document.getElementById('eclipseTypes');
+                    eclipseTypes.classList.add('eclipse-subtitle');
+
+                    const eclipseTypesDescription = document.getElementById('eclipseTypesDescription');
+                    eclipseTypesDescription.classList.add('eclipse-description');
+
+                    const eclipseSafety = document.getElementById('eclipseSafety');
+                    eclipseSafety.classList.add('eclipse-subtitle');
+
+                    const safetyDescription = document.getElementById('safetyDescription');
+                    safetyDescription.classList.add('eclipse-description');
+                </script>
+</head>
+<body>
+<div class="container">
+    <div class="video">
+            <video width="640" height="360" controls>
+                <source src="c:\Users\zedlo\Downloads\WhatsApp Video 2023-10-13 at 22.39.42.mp4" type="video/mp4">
+            </video>
+            
+        </video>
+        
+    </div>
+    <div class="texto">
+        <h1>EXEMPLO</h1>
+        <p>
+        Esse e um eclipse solar, em que a lua cobre o sol,
+        formando um "anel de fogo". Inclusive haverá um eclipse neste sabado dia 14 que irá ser visível por quase todo o país,
+        com o nordeste sendo o lugar mais visível. A última vez que foi possível ver um eclipse anular por completo,
+         foi em 1994 na região sul do Brasil, então será muito interessante poder rever esse evento!
+        </p>
+        <nav>
+            <ul>
+                <li><a href="#">Jornal TV agradeçe</a></li>
+                <li><a href="#">Somos jornal focado ao eclipse solar</a></li>
+                <li><a href="#">@Jornal TV</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</body>
+</html>
+<footer>
+    <p>&copy; JORNAL TV</p>
+</footer>
+</body>
+</html>
